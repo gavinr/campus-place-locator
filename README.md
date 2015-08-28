@@ -45,11 +45,12 @@ Esri welcomes contributions from anyone and everyone.
 Please see our [guidelines for contributing](https://github.com/esri/contributing).
 
 ## Attribution
+Font Awesome by Dave Gandy - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
 
 
 ## Licensing
 
-Copyright 2013 Esri
+Copyright 2015 Esri
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
@@ -66,6 +67,6 @@ limitations under the License.
 A copy of the license is available in the repository's
 [LICENSE.txt](https://raw.github.com/Esri/configurable-place-finder/master/LICENSE.txt) file.
 
-[](Esri Tags: State-Government Local-Government State Local Government Site Selector)
+[](Esri Tags: ArcGISSolutions Local-Government Local Government Campus Place Locator Finder)
 [](Esri Language: JavaScript)
 
