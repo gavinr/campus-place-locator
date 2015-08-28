@@ -1,6 +1,6 @@
 # campus-place-locator
 
-***The Campus Place Locator is a replacement to the [Campus Place Finder application](https://github.com/Esri/campus-place-finder)***
+***The Campus Place Locator replaces the [Campus Place Finder application](https://github.com/Esri/campus-place-finder)***
 
 Campus Place Locator is a configuration of ArcGIS and a JavaScript application that offers a map-based view of interior and exterior assets on a university or business campus.
 
