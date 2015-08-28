@@ -22,7 +22,7 @@ You'll need to convert to an application in IIS and use the ASP .NET 4.0 or 4.5.
 
 **Start now using your own services**
 
-For more information on requirements and publication steps, see [Campus Place Locator Government](http://links.esri.com/localgovernment/help/campusplacelocator) help
+For more information on requirements and publication steps, see [Campus Place Locator](http://links.esri.com/localgovernment/help/campusplacelocator) help
 
 ## Resources
 
