@@ -27,9 +27,15 @@ require({
 }, [
     'esri/arcgis/OAuthInfo',
     'esri/IdentityManager',
+    'esri/arcgis/utils',
     'app/controller',
     'config/config', // if you change this, change the one in controller.js too
-    'dojo/domReady!'], function(OAuthInfo, esriID, Controller, config) {
+    'dojo/domReady!'],
+function(OAuthInfo, esriID, arcgisUtils, Controller, config) {
+
+        if (config.portalUrl) {
+            arcgisUtils.arcgisUrl = config.portalUrl + 'sharing/rest/content/items';
+        }
 
         if (config.authentication && config.authentication.appId) {
             var info = new OAuthInfo({
@@ -37,8 +43,11 @@ require({
                 authNamespace: 'portal_oauth_inline',
                 popup: false
             });
-            if (config.portalUrl) {
-                info.portalUrl = config.portalUrl;
+            if (config.authentication.portalUrl || config.portalUrl) {
+                info.portalUrl = config.authentication.portalUrl || config.portalUrl;
+                if (info.portalUrl.indexOf('portal/') === info.portalUrl.length - 7) {
+                    info.portalUrl = info.portalUrl + 'sharing';
+                }
             }
             esriID.registerOAuthInfos([info]);
 
