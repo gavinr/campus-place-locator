@@ -17,13 +17,13 @@
 define({
     root: ({
 
-    	// Basemap Gallery
-    	basemapGalleryButtonTitle : 'Change Basemap',
+        // Basemap Gallery
+        basemapGalleryButtonTitle : 'Change Basemap',
 
-    	// Legend
-    	showLegendButtonTitle : 'Show Legend',
+        // Legend
+        showLegendButtonTitle : 'Show Legend',
 
-    	// BuildingButton widget
+        // BuildingButton widget
         zoomToBuildingButtonTitle: 'Zoom to Full Building',
         changeBuildingsButtonTitle: 'Change buildings',
 
@@ -56,5 +56,6 @@ define({
         splashScreenMessage: 'The Campus Place Locator helps employees and guests locate people, offices, conference rooms, and spaces as well as obtain information about those people and places. <br><br> To locate a person or place, simply click on the map or select what you are searching for - person or place, then enter who or what you are looking for in the search box.<br><br>The person’s office or space will then be highlighted on the map and relevant information about the person or space will be displayed in the application.'
 
 
-    })
+    }),
+    "pt-br": 1
 });
