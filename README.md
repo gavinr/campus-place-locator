@@ -66,7 +66,3 @@ limitations under the License.
 
 A copy of the license is available in the repository's
 [LICENSE.txt](https://raw.github.com/Esri/campus-place-locator/master/LICENSE.txt) file.
-
-[](Esri Tags: ArcGISSolutions Local-Government Local Government Campus Place Locator Finder)
-[](Esri Language: JavaScript)
-
