@@ -17,6 +17,11 @@
 define(function() {
 
     return {
+        /* ----- Portal URL ----- */
+        /* Set portal url for app. Necessary if using webmap with Portal for ArcGIS,
+         * not if using ArcGIS Online. Address should end in "/portal/" */
+        // portalUrl: '//yourserver/portal/',
+
         /*----- Authentication SETTINGS-----*/
         // Authentication is optional. If authentication is needed then, uncomment the 
         // entire authentication object. You'll need to Registar your application with
@@ -24,7 +29,9 @@ define(function() {
         /*authentication: {
             // appId: '',
             // If appId is present and portalUrl is omitted, this authenticates against
-            // *any* arcgisonline account, which is probably not what you want.
+            // *any* arcgisonline account, which is probably not what you want. 
+            // If authenticating against Portal for ArcGIS, the app will use the above
+            // portalUrl if this is not specified. Address should end in "/portal/"
             portalUrl: '//yourportal.maps.arcgis.com',
         }, */
 
@@ -71,7 +78,9 @@ define(function() {
          */
 
         basemapGallery: {
-            portalUrl: 'http://www.arcgis.com',
+            // This can be specified separately from the overall and authentication portal URLs. 
+            // If blank or commented out, this defaults to www.arcgis.com
+            portalUrl: '',
             // 'true' - display the BaseMapGallery button (and therefore the basemaps)
             // 'false' - hide the BaseMapGallery button. The default/only basemap (from list below) is specified in mapSetup.basemap
             showBasemapGallery: true,

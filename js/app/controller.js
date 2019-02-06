@@ -181,7 +181,7 @@ function(config,
             // if webmap , it will take longer to create - use setInterval to check if map is valid
             var self = this;
             var verifyMap = setInterval(function(){
-                if (self.map == undefined){
+                if (!self.map){
                     console.warn('map not created');
                 } else {
                     clearInterval(verifyMap);
@@ -227,7 +227,7 @@ function(config,
                     }
                     console.debug('map created');                    
             }
-            },1);
+            },100);
             
             
         },
@@ -246,7 +246,7 @@ function(config,
                     } else {                        
                         console.debug('map not complete');
                     }
-                },1);
+                },100);
             }
         },
 
