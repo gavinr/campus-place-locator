@@ -6,9 +6,7 @@
 
 Campus Place Locator is a configuration of ArcGIS and a JavaScript application that offers a map-based view of interior and exterior assets on a university or business campus.
 
-* Try the [Campus Place Locator application](http://links.esri.com/localgovernment/tryit/CampusPlaceLocator/)
-
-[![Image of the Campus Place Locator application](campus-place-locator.png "Site Selector application")](http://links.esri.com/localgovernment/tryit/CampusPlaceLocator/)
+[![Image of the Campus Place Locator application](campus-place-locator.png "Site Selector application")]
 
 ## Features
 
@@ -30,7 +28,7 @@ For more information on requirements and publication steps, see [Campus Place Lo
 
 Show me a list of other [Local Government GitHub repositories](http://esri.github.io/#Local-Government).
 
-Additional [information and sample data](http://links.esri.com/localgovernment/help/campusplacelocato)
+Additional [information and sample data](http://links.esri.com/localgovernment/help/campusplacelocator)
 are available for the application.
 
 This application uses the 3.14 version of
